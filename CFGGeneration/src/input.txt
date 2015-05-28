@@ -1,0 +1,16 @@
+class A -> Class B : msg0()
+loop 0 to n
+	class A -> Class C : msg1()
+	if j<20
+		if j==15
+			Class B -> Class C : msg2()
+		else
+			Class B -> Class C : msg2()
+			if cond
+				Class B -> Class C : msg2()
+	else
+		class A -> Class C : msg3()
+		Class C -> class A : return value
+	break on j == 24
+		Parallel :
+			class A -> Class B : msg4() 

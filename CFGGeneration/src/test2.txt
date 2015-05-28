@@ -1,0 +1,13 @@
+msg0()
+LOOP 0 to n
+	msg1()
+	IF j<20
+		IF j==15
+			msg2()
+	ELSE
+		msg3()
+		return value
+	BREAK on j == 24
+		Parallel :
+			msg4()
+msg5()
